@@ -1,0 +1,19 @@
+{
+  "name": "task-caller",
+  "version": "1.0.0",
+  "description": "AI-powered voice task manager - calls you with daily tasks and lets you add tasks by phone",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "twilio": "^5.4.3"
+  }
+}
